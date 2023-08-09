@@ -1,12 +1,12 @@
 # [eEDB-011/2023-3] - Ingestão de Dados
 
 ## Grupo 09
-Integrantes:
-Jardel Ribeiro: noUSP 97244
-Jones Coelho: noUSP 97237
-Leandro Agostini: noUSP 97105
-Marcos Rodrigues: noUSP 96951
-Renata Larios: noUSP 96952
+Integrantes: <br />
+Jardel Ribeiro: noUSP 97244 <br />
+Jones Coelho: noUSP 97237 <br />
+Leandro Agostini: noUSP 97105 <br />
+Marcos Rodrigues: noUSP 96951 <br />
+Renata Larios: noUSP 96952 <br />
 
 ### Definição do Trabalho
 Neste trabalho se encontra o script gerado pelo AWS GLUE para realização da ingestão e agrupamentos com a base de Bancos, Empregados e Reclamações.
