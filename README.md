@@ -12,7 +12,7 @@ Renata Larios: noUSP 96952 <br />
 Neste trabalho se encontra o script gerado pelo AWS GLUE para realização da ingestão e agrupamentos com a base de Bancos, Empregados e Reclamações. <br />
 Também, se encontra o arquivo final gerado pelo código PySpark, extraindo as mesmas agregações que o GLUE.
 
-Script: Exercicio01.py
+Script: Exercicio01.py <br />
 Arquivo: Output.csv
 
 ### Para próxima aula
