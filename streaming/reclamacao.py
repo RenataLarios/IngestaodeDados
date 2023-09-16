@@ -5,7 +5,7 @@ class Reclamacao:
         self.ano = 2023
         self.trimestre = 4
         self.instituicao_financeira = "BANCO_TESTE_INGESTAO"
-        self.categoria = "S4"
+        self.categoria = "S9"
         self.tipo = "Banco/financeira"
         self.cnpj_if = 12345678910
         self.indice= self.__random_float(2, 100)

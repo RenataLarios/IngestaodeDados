@@ -23,7 +23,7 @@ class Empregado:
         self.pct_recomendam_outras_pessoas = self.__random_float(1, 100)
         self.pct_perspectiva_positiva_da_empresa = self.__random_float(100)
         self.cnpj = "12345678910"
-        self.segmento = "S4"
+        self.segmento = "S9"
         self.nome = "BANCO_TESTE_INGESTAO"
         self.match_percent = self.__random(100)
 
