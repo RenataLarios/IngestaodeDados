@@ -1,10 +1,11 @@
 import mysql.connector as connector
+import os
 
 config = {
-    "user": "ingestao", 
-    "password": "ingestao", 
-    "host": "eedb-011-ingestao-dados.c3myzemak5ll.us-east-1.rds.amazonaws.com", 
-    "database": "ingestao_dados_fila",
+    "user": os.getenv("MYSQL_USER"), 
+    "password": os.getenv("MYSQL_PASSWORD"),  
+    "host": os.getenv("MYSQL_HOST"), 
+    "database": os.getenv("MYSQL_DATABASE"), 
     "raise_on_warnings": True
 }
 

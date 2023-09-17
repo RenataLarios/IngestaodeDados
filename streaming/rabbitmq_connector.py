@@ -1,9 +1,10 @@
 import pika
+import os
 
 class RabbitMqConnector:
     def __init__(self):
-        credentials = pika.PlainCredentials("knhwqmwo", "LZFvwY28zMSnuAOx69jSxLo0pxogyma-")
-        self.__parameters = pika.ConnectionParameters("jackal-01.rmq.cloudamqp.com", 5672, "knhwqmwo", credentials)
+        credentials = pika.PlainCredentials(os.getenv("RABBITMQ_USER"), os.getenv("RABBITMQ_PASSWORD"))
+        self.__parameters = pika.ConnectionParameters(os.getenv("RABBITMQ_HOST"), os.getenv("RABBITMQ_PORT"), os.getenv("RABBITMQ_VHOST"), credentials)
         self.__connection = None
 
     def __get_connection(self):
