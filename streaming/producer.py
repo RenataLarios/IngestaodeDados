@@ -7,14 +7,13 @@ import time
 
 rabbit = RabbitMqConnector()
 
-banco  = json.dumps(Banco().__dict__)
-empregado  = json.dumps(Empregado().__dict__)
-reclamacao  = json.dumps(Reclamacao().__dict__)
-
-
 def send_requests(n):
     i = 0
     while i < n:
+        banco  = json.dumps(Banco().__dict__)
+        empregado  = json.dumps(Empregado().__dict__)
+        reclamacao  = json.dumps(Reclamacao().__dict__)
+
         if i % 3 == 0:
             rabbit.send("bancos", banco)
         elif i % 3 == 1:
