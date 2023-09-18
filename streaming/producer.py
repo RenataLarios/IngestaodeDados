@@ -27,4 +27,4 @@ def send_requests(n):
 
 
 if __name__ == "__main__":
-    send_requests(10)
+    send_requests(6)
